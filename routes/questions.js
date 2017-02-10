@@ -79,4 +79,20 @@ router.post('/:id', function (req, res, next) {
     });
 });
 
+router.delete('/:id', function (req, res, next) {
+    var id = req.params.id;
+    dbUtils.removeData(req.db, tableName, {"id":id}, function (err, data) {
+        if (err) {
+            // If it failed, return error
+            console.log("error", err);
+            res.send("There was a problem removing the information from the database.");
+        } else {
+            // And forward to success page
+            console.log("data", data);
+            res.send(data);
+        }
+    });
+});
+
+
 module.exports = router;

@@ -79,4 +79,19 @@ router.post('/:username', function (req, res, next) {
     });
 });
 
+router.delete('/:username', function (req, res, next) {
+    var username = req.params.username;
+    dbUtils.removeData(req.db, tableName, {"username":username}, function (err, data) {
+        if (err) {
+            // If it failed, return error
+            console.log("error", err);
+            res.send("There was a problem removing the information from the database.");
+        } else {
+            // And forward to success page
+            console.log("data", data);
+            res.send(data);
+        }
+    });
+});
+
 module.exports = router;
