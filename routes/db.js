@@ -6,17 +6,53 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/initialize', function (req, res, next) {
     if (req.query['reset']) {
-        dropData(req, res, 'users');
+        dropData(req.db, 'users', function (err, doc) {
+            if (err) {
+                console.log("error", err);
+            } else {
+                console.log("doc", doc);
+            }
+        });
         var users = getFile('data\\users.json');
-        insertData(req, res, 'users', users);
+        insertData(req.db, 'users', users, function (err, doc) {
+            if (err) {
+                console.log("error", err);
+            } else {
+                console.log("doc", doc);
+            }
+        });
 
-        dropData(req, res, 'recruiters');
+        dropData(req.db, 'recruiters', function (err, doc) {
+            if (err) {
+                console.log("error", err);
+            } else {
+                console.log("doc", doc);
+            }
+        });
         var recruiters = getFile('data\\recruiters.json');
-        insertData(req, res, 'recruiters', recruiters);
+        insertData(req.db, 'recruiters', recruiters, function (err, doc) {
+            if (err) {
+                console.log("error", err);
+            } else {
+                console.log("doc", doc);
+            }
+        });
 
-        dropData(req, res, 'joboffers');
+        dropData(req.db, 'joboffers', function (err, doc) {
+            if (err) {
+                console.log("error", err);
+            } else {
+                console.log("doc", doc);
+            }
+        });
         var joboffers = getFile('data\\joboffers.json');
-        insertData(req, res, 'joboffers', joboffers);
+        insertData(req.db, 'joboffers', joboffers, function (err, doc) {
+            if (err) {
+                console.log("error", err);
+            } else {
+                console.log("doc", doc);
+            }
+        });
         res.send('DB reinitialized');
     } else {
         res.send('DB NOT reinitialized');
@@ -28,52 +64,16 @@ var getFile = function (fileName) {
     return JSON.parse(data);
 };
 
-var getData = function (req, res, table) {
-    console.log('get from ' + table);
-    var db = req.db;
-    var collection = db.get(table);
-
-    collection.find({}, {}, function (e, data) {
-        res.send(data);
-    });
-};
-
-var dropData = function (req, res, table) {
+var dropData = function (db, table, callback) {
     console.log('drop all from ' + table);
-    var db = req.db;
     var collection = db.get(table);
-
-    collection.drop(function (err, doc) {
-        if (err) {
-            // If it failed, return error
-            console.log("error", err);
-            return ("There was a problem dropping the collection.");
-        } else {
-            // And forward to success page
-            console.log("doc", doc);
-            return ("Dropped");
-        }
-    });
+    collection.drop(callback);
 };
 
-var insertData = function (req, res, table, data) {
+var insertData = function (db, table, data, callback) {
     console.log('insert ' + JSON.stringify(data) + ' in ' + table);
-    var db = req.db;
     var collection = db.get(table);
-
-    // Submit to the DB
-    collection.insert(data, function (err, doc) {
-        if (err) {
-            // If it failed, return error
-            console.log("error", err);
-            return ("There was a problem adding the information to the database.");
-        } else {
-            // And forward to success page
-            console.log("doc", doc);
-            return ("added");
-        }
-    });
+    collection.insert(data, callback);
 };
-
 
 module.exports = router;
