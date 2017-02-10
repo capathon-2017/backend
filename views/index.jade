@@ -5,24 +5,26 @@ block content
 
   h2: a(href="/users") /users
   ul
-    li GET Returns a list of users <br>
-      a(href="/users") /users
+    li GET Returns a list of users
     li POST Creates a user<br>
       | Data as body: {"name":"pietje","skill":"javascript"} <br>
       | Data as params: /users?name=klaasje&skill=java
 
   h2: a(href="/recruiters") /recruiters
   ul
-    li GET Returns a list of recruiters <br>
-      a(href="/recruiters") /recruiters
+    li GET Returns a list of recruiters
     li POST Creates a recruiters<br>
       | Data as body: {"name":"pietje","skill":"javascript"} <br>
       | Data as params: /recruiters?name=klaasje&skill=java
 
   h2: a(href="/joboffers") /joboffers
   ul
-    li GET Returns a list of joboffers <br>
-      a(href="/joboffers") /joboffers
+    li GET Returns a list of joboffers
     li POST Creates a joboffer<br>
       | Data as body: {"name":"pietje","skill":"javascript"} <br>
       | Data as params: /joboffers?name=klaasje&skill=java
+
+  h2: a(href="/db/initialize") /db/initialize
+  ul
+    li GET Reinitialize the database
+    

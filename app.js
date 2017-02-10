@@ -12,6 +12,7 @@ var dbUrl = 'mongodb://192.168.101.223:27017/capathon'; //Karin
 var db = monk(dbUrl);
 
 var index = require('./routes/index');
+var dbroutes = require('./routes/db');
 var users = require('./routes/users');
 var recruiters = require('./routes/recruiters');
 var joboffers = require('./routes/joboffers');
@@ -37,6 +38,7 @@ app.use(function (req, res, next) {
 });
 
 app.use('/', index);
+app.use('/db', dbroutes);
 app.use('/users', users);
 app.use('/recruiters', recruiters);
 app.use('/joboffers', joboffers);

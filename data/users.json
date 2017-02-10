@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Olivier Van Paljas",
+    "location": "Antwerp",
+    "skill_java": 3,
+    "skill_scrum": "4",
+    "age": 23,
+    "certifications": [
+      "Java OCA",
+      "Backbase Frontend"
+    ],
+    "motivationLetter": "I want to work",
+    "extraCarreerActivities": "Helping the homeless",
+    "carreerExpierence": "5 years at BNP Paribas as Java developper"
+  },
+  {
+    "name": "Thomas Vandebiere",
+    "location": "Leuven",
+    "skill_java": 5,
+    "skill_scrum": "2",
+    "age": 23,
+    "certifications": [
+      "Java OCA",
+      "Backbase Backend"
+    ],
+    "motivationLetter": "I am looking for a nice job",
+    "extraCarreerActivities": "None",
+    "carreerExpierence": "Benchlife at Capgemini"
+  },
+  {
+    "name": "PJ",
+    "location": "Onbekend",
+    "skill_java": 1,
+    "skill_scrum": "1",
+    "age": 50,
+    "certifications": [
+      "Java OCA",
+      "Certified Manager"
+    ],
+    "motivationLetter": "Please hire me",
+    "extraCarreerActivities": "None",
+    "carreerExpierence": "Something something at Argenta"
+  },
+  {
+    "name": "Karin",
+    "location": "De Nederlanden",
+    "skill_java": 4,
+    "skill_scrum": "4",
+    "age": 18,
+    "certifications": [
+      "Java OCA",
+      "Certified Manager"
+    ],
+    "motivationLetter": "I want to work in Belgium, so much nicer there",
+    "extraCarreerActivities": "Ambassador for VZW Kinderdorpen",
+    "carreerExpierence": "Internship at Google"
+  },
+  {
+    "name": "Daan",
+    "location": "Parijs",
+    "skill_java": 4,
+    "skill_scrum": "3",
+    "age": 25,
+    "certifications": [
+      "Java OCA",
+      "Backbase pro"
+    ],
+    "motivationLetter": "I will work hard",
+    "extraCarreerActivities": "Hatsen in het weekend",
+    "carreerExpierence": "Crewmember bij McDonalds"
+  },
+  {
+    "name": "Marijn",
+    "location": "Belgie",
+    "skill_java": 2,
+    "skill_scrum": "3",
+    "age": 26,
+    "certifications": [
+      "Oracle Expert",
+      "Certified paljaske",
+      "Guiter hero semi-pro"
+    ],
+    "motivationLetter": "I will do everything for money",
+    "extraCarreerActivities": "Hatsen in het weekend/ in de week",
+    "carreerExpierence": "Short time CEO of Google"
+  }
+]
