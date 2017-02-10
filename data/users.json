@@ -1,7 +1,7 @@
 [
   {
     "name": "Olivier Van Paljas",
-    "img":"/images/daan.jpg",
+    "img":"/images/olivier.jpg",
     "location": "Antwerp",
     "certifications": [
       "Java OCA",
@@ -97,7 +97,7 @@
   },
   {
     "name": "Marijn",
-    "img":"/images/daan.jpg",
+    "img":"/images/other.jpg",
     "location": "Belgie",
     "skills": {
       "dotnet": 2,
