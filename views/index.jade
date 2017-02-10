@@ -43,10 +43,14 @@ block content
 
   h2: a(href="/joboffers") /joboffers
   ul
-    li GET Returns a list of joboffers
-    li POST Creates a joboffer<br>
-      | Data as body: {"name":"pietje","skill":"javascript"} <br>
-      | Data as params: /joboffers?name=klaasje&skill=java
+    li GET
+      a(href="/joboffers") /joboffers<br>
+      | Returns a list of joboffers
+    li POST
+      a(href="/joboffers") /joboffers<br>
+      | Creates a joboffer<br>
+      | Data as body: {"project":"Java implementation","company":"Capgemini","minRequiredSkillJava":2,"minRequiredSkillScrum":1,"phase":1} <br>
+      | Data as params: /joboffers?project=java&company=Capgemini
 
   h2: a(href="/db/initialize?reset") /db/initialize
   ul
