@@ -65,13 +65,22 @@ block content
     li GET
       a(href="/joboffers") /joboffers<br>
       | Returns a list of joboffers
+    li GET
+      a(href="/joboffers/1") /joboffers/1<br>
+      | Returns the joboffer with name
     li POST
       a(href="/joboffers") /joboffers<br>
       | Creates a joboffer<br>
-      | Data as body: {"project":"Java implementation","company":"Capgemini","minRequiredSkillJava":2,"minRequiredSkillScrum":1,"phase":1} <br>
-      | Data as params: /joboffers?project=java&company=Capgemini
+      | Data as body: {"id":"1","project":"Java implementation"} <br>
+      | Data as params: /joboffers?id=1&project=javascript
+    li POST
+      a(href="/joboffers/1") /joboffers/1<br>
+      | Updates a joboffer<br>
+      | Data as body: {"id":"1","project":"javascript"} <br>
+      | Data as params: /joboffers?id=1&project=javascript
 
   h2: a(href="/db/initialize?reset") /db/initialize
   ul
-    li GET Reinitialize the database
+    li GET Reinitialize the database. <br>
+      | Ask the team.
     
