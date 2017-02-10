@@ -17,6 +17,7 @@ var users = require('./routes/users');
 var recruiters = require('./routes/recruiters');
 var joboffers = require('./routes/joboffers');
 var questions = require('./routes/questions');
+var highscores = require('./routes/highscores');
 
 var app = express();
 
@@ -59,6 +60,7 @@ app.use('/users', users);
 app.use('/recruiters', recruiters);
 app.use('/joboffers', joboffers);
 app.use('/questions', questions);
+app.use('/highscores', highscores);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

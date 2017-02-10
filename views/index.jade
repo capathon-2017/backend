@@ -3,7 +3,7 @@ extends layout
 block content
   h1 REST API
 
-  h2: a(href="/users") /users
+  h2 /users
   ul
     li GET
       a(href="/users") /users<br>
@@ -25,7 +25,7 @@ block content
       | Data as body: {"name":"pietje","skill":"javascript"} <br>
       | Data as params: /users?name=klaasje&skill=java
 
-  h2: a(href="/recruiters") /recruiters
+  h2 /recruiters
   ul
     li GET
       a(href="/recruiters") /recruiters<br>
@@ -47,7 +47,7 @@ block content
       | Data as body: {"name":"pietje","skill":"javascript"} <br>
       | Data as params: /recruiters?name=klaasje&skill=java
 
-  h2: a(href="/questions") /questions
+  h2 /questions
   ul
     li GET
       a(href="/questions") /questions<br>
@@ -69,7 +69,7 @@ block content
       | Data as body: {"id":"1","question":"javascript"} <br>
       | Data as params: /questions?id=1&question=javascript
 
-  h2: a(href="/joboffers") /joboffers
+  h2 /joboffers
   ul
     li GET
       a(href="/joboffers") /joboffers<br>
@@ -91,8 +91,17 @@ block content
       | Data as body: {"id":"1","project":"javascript"} <br>
       | Data as params: /joboffers?id=1&project=javascript
 
-  h2: a(href="/db/initialize?reset") /db/initialize
+  h2 /highscores
+  ul
+    li GET users with the highest scores sorted. Less users per phase; var phase = [30, 10, 3]<br>
+      a(href="/highscores") /highscores<br>
+      a(href="/highscores/0") /highscores/0<br>
+      a(href="/highscores/1") /highscores/1<br>
+      a(href="/highscores/2") /highscores/2
+
+  h2 /db/initialize
   ul
     li GET Reinitialize the database. <br>
-      | Ask the team.
+      | Ask the team first.
+      a(href="/db/initialize?reset") /db/initialize<br>
     

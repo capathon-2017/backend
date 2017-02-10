@@ -7,6 +7,7 @@
       "Backbase Backend"
     ],
     "age": 23,
+    "highscore": 3,
     "skills": {
       "java": 4,
       "scrum": 3,
@@ -25,6 +26,7 @@
       "drinken": 4
     },
     "age": 23,
+    "highscore": 10,
     "certifications": [
       "Java OCA",
       "Backbase Backend"
@@ -42,6 +44,7 @@
       "managen": 3
     },
     "age": 50,
+    "highscore": 15,
     "certifications": [
       "Java OCA",
       "Certified Manager"
@@ -59,9 +62,11 @@
       "Nederlands": 5
     },
     "age": 18,
+    "highscore": 13,
     "certifications": [
       "Java OCA",
-      "Certified Manager"
+      "Certified Manager",
+      "Scrum Master"
     ],
     "motivationLetter": "I want to work in Belgium, so much nicer there",
     "extraCarreerActivities": "Ambassador for VZW Kinderdorpen",
@@ -76,6 +81,7 @@
       "Frans": 5
     },
     "age": 25,
+    "highscore": 14,
     "certifications": [
       "Java OCA",
       "Backbase pro"
@@ -93,6 +99,7 @@
       "networking": 2
     },
     "age": 26,
+    "highscore": 11,
     "certifications": [
       "Oracle Expert",
       "Certified paljaske",
@@ -101,5 +108,43 @@
     "motivationLetter": "I will do everything for money",
     "extraCarreerActivities": "Hatsen in het weekend/ in de week",
     "carreerExpierence": "Short time CEO of Google"
+  },
+  {
+    "name": "Jeroen",
+    "location": "Belgie",
+    "skills": {
+      "dotnet": 2,
+      "scrum": 3,
+      "networking": 2
+    },
+    "age": 27,
+    "highscore": 13,
+    "certifications": [
+      "Oracle Expert",
+      "Certified paljaske",
+      "Guiter hero semi-pro"
+    ],
+    "motivationLetter": "I will work for money",
+    "extraCarreerActivities": "Hacken in het weekend en in de week",
+    "carreerExpierence": "Argenta"
+  },
+  {
+    "name": "Rob",
+    "location": "Belgie",
+    "skills": {
+      "dotnet": 2,
+      "scrum": 3,
+      "networking": 2
+    },
+    "age": 27,
+    "highscore": 7,
+    "certifications": [
+      "Oracle Expert",
+      "Certified paljaske",
+      "Guiter hero semi-pro"
+    ],
+    "motivationLetter": "I will work for money",
+    "extraCarreerActivities": "Spelen met google home",
+    "carreerExpierence": "Argenta"
   }
 ]
