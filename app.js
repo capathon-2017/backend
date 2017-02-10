@@ -13,7 +13,7 @@ var db = monk(dbUrl);
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-var recruters = require('./routes/recruters');
+var recruiters = require('./routes/recruiters');
 
 var app = express();
 
@@ -37,7 +37,7 @@ app.use(function (req, res, next) {
 
 app.use('/', index);
 app.use('/users', users);
-app.use('/recruters', recruters);
+app.use('/recruiters', recruiters);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
