@@ -5,15 +5,27 @@ block content
 
   h2: a(href="/users") /users
   ul
-    li GET Returns a list of users
-    li POST Creates a user<br>
+    li GET
+      a(href="/users") /users<br>
+      | Returns a list of users
+    li GET
+      a(href="/users/PJ") /users/PJ<br>
+      | Returns the user with name
+    li POST
+      a(href="/users") /users<br>
+      | Creates a user<br>
+      | Data as body: {"name":"pietje","skill":"javascript"} <br>
+      | Data as params: /users?name=klaasje&skill=java
+    li POST
+      a(href="/users/PJ") /users/PJ<br>
+      | Updates a user<br>
       | Data as body: {"name":"pietje","skill":"javascript"} <br>
       | Data as params: /users?name=klaasje&skill=java
 
   h2: a(href="/recruiters") /recruiters
   ul
     li GET Returns a list of recruiters
-    li POST Creates a recruiters<br>
+    li POST Creates a recruiter<br>
       | Data as body: {"name":"pietje","skill":"javascript"} <br>
       | Data as params: /recruiters?name=klaasje&skill=java
 
