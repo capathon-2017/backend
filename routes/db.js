@@ -1,36 +1,20 @@
 var express = require('express');
-var fs = require("fs");
+var dbUtils = require('../lib/dblib');
 
 var router = express.Router();
 
 /* GET users listing. */
 router.get('/initialize', function (req, res, next) {
     if (req.query['reset']) {
-        dropData(req.db, 'users', function (err, doc) {
+        dbUtils.dropData(req.db, 'users', function (err, doc) {
             if (err) {
                 console.log("error", err);
             } else {
                 console.log("doc", doc);
             }
         });
-        var users = getFile('data\\users.json');
-        insertData(req.db, 'users', users, function (err, doc) {
-            if (err) {
-                console.log("error", err);
-            } else {
-                console.log("doc", doc);
-            }
-        });
-
-        dropData(req.db, 'recruiters', function (err, doc) {
-            if (err) {
-                console.log("error", err);
-            } else {
-                console.log("doc", doc);
-            }
-        });
-        var recruiters = getFile('data\\recruiters.json');
-        insertData(req.db, 'recruiters', recruiters, function (err, doc) {
+        var users = dbUtils.getFile('data\\users.json');
+        dbUtils.insertData(req.db, 'users', users, function (err, doc) {
             if (err) {
                 console.log("error", err);
             } else {
@@ -38,15 +22,31 @@ router.get('/initialize', function (req, res, next) {
             }
         });
 
-        dropData(req.db, 'joboffers', function (err, doc) {
+        dbUtils.dropData(req.db, 'recruiters', function (err, doc) {
             if (err) {
                 console.log("error", err);
             } else {
                 console.log("doc", doc);
             }
         });
-        var joboffers = getFile('data\\joboffers.json');
-        insertData(req.db, 'joboffers', joboffers, function (err, doc) {
+        var recruiters = dbUtils.getFile('data\\recruiters.json');
+        dbUtils.insertData(req.db, 'recruiters', recruiters, function (err, doc) {
+            if (err) {
+                console.log("error", err);
+            } else {
+                console.log("doc", doc);
+            }
+        });
+
+        dbUtils.dropData(req.db, 'joboffers', function (err, doc) {
+            if (err) {
+                console.log("error", err);
+            } else {
+                console.log("doc", doc);
+            }
+        });
+        var joboffers = dbUtils.getFile('data\\joboffers.json');
+        dbUtils.insertData(req.db, 'joboffers', joboffers, function (err, doc) {
             if (err) {
                 console.log("error", err);
             } else {
@@ -58,22 +58,5 @@ router.get('/initialize', function (req, res, next) {
         res.send('DB NOT reinitialized');
     }
 });
-
-var getFile = function (fileName) {
-    var data = fs.readFileSync(fileName);
-    return JSON.parse(data);
-};
-
-var dropData = function (db, table, callback) {
-    console.log('drop all from ' + table);
-    var collection = db.get(table);
-    collection.drop(callback);
-};
-
-var insertData = function (db, table, data, callback) {
-    console.log('insert ' + JSON.stringify(data) + ' in ' + table);
-    var collection = db.get(table);
-    collection.insert(data, callback);
-};
 
 module.exports = router;

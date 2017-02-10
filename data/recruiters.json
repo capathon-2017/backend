@@ -1,14 +1,3 @@
 [
-  {
-    "name": "Thomas Van Deun"
-  },
-  {
-    "name": "Eddy"
-  },
-  {
-    "name": "Alexander"
-  },
-  {
-    "name": "Kristof"
-  }
+  {"firstName":"FinFinal","lastName":"Final","username":"Final","password":"56fe6c88737002a2465b4ba16db26031b5e14b417db9e5a78612acb6e5629cb28721fa6a215f5e89726cf167d145e20f4286bb4f496ffe30e6c54bd5aafb3676"}
 ]
