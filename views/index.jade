@@ -1,5 +1,21 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 REST API
+
+  h2: a(href="/users") /users
+  ul
+    li GET Returns a list of users <br>
+      a(href="/users") /users
+    li POST Creates a user<br>
+      | Data as body: {"name":"pietje","skill":"javascript"} <br>
+      | Data as params: /users?name=klaasje&skill=java
+
+
+  h2: a(href="/recruters") /recruters
+  ul
+    li GET Returns a list of recruters <br>
+      a(href="/recruters") /users
+    li POST Creates a recruters<br>
+      | Data as body: {"name":"pietje","skill":"javascript"} <br>
+      | Data as params: /users?name=klaasje&skill=java

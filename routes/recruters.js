@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var tableName = 'users';
+var tableName = 'recruters';
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {

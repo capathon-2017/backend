@@ -7,12 +7,13 @@ var bodyParser = require('body-parser');
 
 var mongo = require('mongodb');
 var monk = require('monk');
-var dbUrl = 'mongodb://192.168.1.28:27017/capathon';
+// var dbUrl = 'mongodb://192.168.1.28:27017/capathon'; // Oli
+var dbUrl = 'mongodb://192.168.101.223:27017/capathon'; //Karin
 var db = monk(dbUrl);
 
 var index = require('./routes/index');
 var users = require('./routes/users');
-var backend = require('./routes/backend');
+var recruters = require('./routes/recruters');
 
 var app = express();
 
@@ -36,7 +37,7 @@ app.use(function (req, res, next) {
 
 app.use('/', index);
 app.use('/users', users);
-app.use('/backend', backend);
+app.use('/recruters', recruters);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
