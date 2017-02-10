@@ -24,8 +24,20 @@ block content
 
   h2: a(href="/recruiters") /recruiters
   ul
-    li GET Returns a list of recruiters
-    li POST Creates a recruiter<br>
+    li GET
+      a(href="/recruiters") /recruiters<br>
+      | Returns a list of recruiters
+    li GET
+      a(href="/recruiters/Final") /recruiters/Final<br>
+      | Returns the recruiter with name
+    li POST
+      a(href="/recruiters") /recruiters<br>
+      | Creates a recruiter<br>
+      | Data as body: {"name":"pietje","skill":"javascript"} <br>
+      | Data as params: /recruiters?name=klaasje&skill=java
+    li POST
+      a(href="/recruiters/Final") /recruiters/Final<br>
+      | Updates a recruiter<br>
       | Data as body: {"name":"pietje","skill":"javascript"} <br>
       | Data as params: /recruiters?name=klaasje&skill=java
 

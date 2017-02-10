@@ -2,13 +2,16 @@
   {
     "name": "Olivier Van Paljas",
     "location": "Antwerp",
-    "skill_java": 3,
-    "skill_scrum": "4",
-    "age": 23,
     "certifications": [
       "Java OCA",
-      "Backbase Frontend"
+      "Backbase Backend"
     ],
+    "age": 23,
+    "skills": {
+      "java": 4,
+      "scrum": 3,
+      "networking": 2
+    },
     "motivationLetter": "I want to work",
     "extraCarreerActivities": "Helping the homeless",
     "carreerExpierence": "5 years at BNP Paribas as Java developper"
@@ -16,8 +19,11 @@
   {
     "name": "Thomas Vandebiere",
     "location": "Leuven",
-    "skill_java": 5,
-    "skill_scrum": "2",
+    "skills": {
+      "java": 4,
+      "runescape": 5,
+      "drinken": 4
+    },
     "age": 23,
     "certifications": [
       "Java OCA",
@@ -30,8 +36,11 @@
   {
     "name": "PJ",
     "location": "Onbekend",
-    "skill_java": 1,
-    "skill_scrum": "1",
+    "skills": {
+      "java": 2,
+      "scrum": 5,
+      "managen": 3
+    },
     "age": 50,
     "certifications": [
       "Java OCA",
@@ -44,8 +53,11 @@
   {
     "name": "Karin",
     "location": "De Nederlanden",
-    "skill_java": 4,
-    "skill_scrum": "4",
+    "skills": {
+      "java": 4,
+      "scrum": 4,
+      "Nederlands": 5
+    },
     "age": 18,
     "certifications": [
       "Java OCA",
@@ -58,8 +70,11 @@
   {
     "name": "Daan",
     "location": "Parijs",
-    "skill_java": 4,
-    "skill_scrum": "3",
+    "skills": {
+      "java": 2,
+      "scrum": 3,
+      "Frans": 5
+    },
     "age": 25,
     "certifications": [
       "Java OCA",
@@ -72,8 +87,11 @@
   {
     "name": "Marijn",
     "location": "Belgie",
-    "skill_java": 2,
-    "skill_scrum": "3",
+    "skills": {
+      "dotnet": 2,
+      "scrum": 3,
+      "networking": 2
+    },
     "age": 26,
     "certifications": [
       "Oracle Expert",
