@@ -11,11 +11,18 @@ block content
       | Data as body: {"name":"pietje","skill":"javascript"} <br>
       | Data as params: /users?name=klaasje&skill=java
 
-
   h2: a(href="/recruiters") /recruiters
   ul
     li GET Returns a list of recruiters <br>
-      a(href="/recruiters") /users
+      a(href="/recruiters") /recruiters
     li POST Creates a recruiters<br>
       | Data as body: {"name":"pietje","skill":"javascript"} <br>
-      | Data as params: /users?name=klaasje&skill=java
+      | Data as params: /recruiters?name=klaasje&skill=java
+
+  h2: a(href="/joboffers") /joboffers
+  ul
+    li GET Returns a list of joboffers <br>
+      a(href="/joboffers") /joboffers
+    li POST Creates a joboffer<br>
+      | Data as body: {"name":"pietje","skill":"javascript"} <br>
+      | Data as params: /joboffers?name=klaasje&skill=java
