@@ -4,16 +4,16 @@ var router = express.Router();
 /* GET users listing. */
 router.get('/', function (req, res, next) {
     res.setHeader('content-type', 'application/json');
-    getData(req, res, 'users')
-    ;
+    getData(req, res, 'users');
 });
 
 router.post('/add', function (req, res, next) {
-    var data = {};
-    for (var param in req.query) {
-        data[param] = req.query[param];
+    var data;
+    if (Object.keys(req.body).length > 0) {
+        data = req.body;
+    } else {
+        data = req.query;
     }
-
     insertData(req, res, 'users', data);
 });
 
@@ -28,7 +28,7 @@ var getData = function (req, res, table) {
 };
 
 var insertData = function (req, res, table, data) {
-    console.log("insert in " + table);
+    console.log('insert ' + JSON.stringify(data) + ' in ' + table);
     var db = req.db;
     var collection = db.get(table);
 
@@ -41,7 +41,7 @@ var insertData = function (req, res, table, data) {
             res.send("There was a problem adding the information to the database.");
         } else {
             // And forward to success page
-            res.send("added" + data);
+            res.send("added");
         }
     });
 };
