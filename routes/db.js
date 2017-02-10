@@ -5,22 +5,26 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/initialize', function (req, res, next) {
-    dropData(req, res, 'users');
-    var users = getFile('data\\users.json');
-    insertData(req, res, 'users', users);
+    if (req.query['reset']) {
+        dropData(req, res, 'users');
+        var users = getFile('data\\users.json');
+        insertData(req, res, 'users', users);
 
-    dropData(req, res, 'recruiters');
-    var recruiters = getFile('data\\recruiters.json');
-    insertData(req, res, 'recruiters', recruiters);
+        dropData(req, res, 'recruiters');
+        var recruiters = getFile('data\\recruiters.json');
+        insertData(req, res, 'recruiters', recruiters);
 
-    dropData(req, res, 'joboffers');
-    var joboffers = getFile('data\\joboffers.json');
-    insertData(req, res, 'joboffers', joboffers);
-    res.send('DB reinitialized');
+        dropData(req, res, 'joboffers');
+        var joboffers = getFile('data\\joboffers.json');
+        insertData(req, res, 'joboffers', joboffers);
+        res.send('DB reinitialized');
+    } else {
+        res.send('DB NOT reinitialized');
+    }
 });
 
 var getFile = function (fileName) {
-    var data = fs.readFileSync('..\\' + fileName);
+    var data = fs.readFileSync(fileName);
     return JSON.parse(data);
 };
 
