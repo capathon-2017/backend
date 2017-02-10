@@ -1,6 +1,7 @@
 [
   {
     "name": "Olivier Van Paljas",
+    "img":"/images/daan.jpg",
     "location": "Antwerp",
     "certifications": [
       "Java OCA",
@@ -19,6 +20,7 @@
   },
   {
     "name": "Thomas Vandebiere",
+    "img":"/images/thomas.jpg",
     "location": "Leuven",
     "skills": {
       "java": 4,
@@ -37,6 +39,7 @@
   },
   {
     "name": "PJ",
+    "img":"/images/pj.jpg",
     "location": "Onbekend",
     "skills": {
       "java": 2,
@@ -55,6 +58,7 @@
   },
   {
     "name": "Karin",
+    "img":"/images/karin.jpg",
     "location": "De Nederlanden",
     "skills": {
       "java": 4,
@@ -74,6 +78,7 @@
   },
   {
     "name": "Daan",
+    "img":"/images/daan.jpg",
     "location": "Parijs",
     "skills": {
       "java": 2,
@@ -92,6 +97,7 @@
   },
   {
     "name": "Marijn",
+    "img":"/images/daan.jpg",
     "location": "Belgie",
     "skills": {
       "dotnet": 2,
@@ -111,6 +117,7 @@
   },
   {
     "name": "Jeroen",
+    "img":"/images/jeroen.jpg",
     "location": "Belgie",
     "skills": {
       "dotnet": 2,
@@ -130,6 +137,7 @@
   },
   {
     "name": "Rob",
+    "img":"/images/rob.jpg",
     "location": "Belgie",
     "skills": {
       "dotnet": 2,
