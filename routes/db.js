@@ -53,6 +53,23 @@ router.get('/initialize', function (req, res, next) {
                 console.log("doc", doc);
             }
         });
+
+        dbUtils.dropData(req.db, 'questions', function (err, doc) {
+            if (err) {
+                console.log("error", err);
+            } else {
+                console.log("doc", doc);
+            }
+        });
+        var questions = dbUtils.getFile('data\\questions.json');
+        dbUtils.insertData(req.db, 'questions', questions, function (err, doc) {
+            if (err) {
+                console.log("error", err);
+            } else {
+                console.log("doc", doc);
+            }
+        });
+
         res.send('DB reinitialized');
     } else {
         res.send('DB NOT reinitialized');

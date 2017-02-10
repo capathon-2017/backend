@@ -41,6 +41,25 @@ block content
       | Data as body: {"name":"pietje","skill":"javascript"} <br>
       | Data as params: /recruiters?name=klaasje&skill=java
 
+  h2: a(href="/questions") /questions
+  ul
+    li GET
+      a(href="/questions") /questions<br>
+      | Returns a list of questions
+    li GET
+      a(href="/questions/1") /questions/1<br>
+      | Returns the question with name
+    li POST
+      a(href="/questions") /questions<br>
+      | Creates a question<br>
+      | Data as body: {"id":"1","question":{"dsfa":"fdsa"}} <br>
+      | Data as params: /questions?id=1&question=javascript
+    li POST
+      a(href="/questions/1") /questions/1<br>
+      | Updates a question<br>
+      | Data as body: {"id":"1","question":"javascript"} <br>
+      | Data as params: /questions?id=1&question=javascript
+
   h2: a(href="/joboffers") /joboffers
   ul
     li GET

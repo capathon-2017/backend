@@ -1,3 +1,23 @@
 [
-  {"firstName":"FinFinal","lastName":"Final","username":"Final","password":"56fe6c88737002a2465b4ba16db26031b5e14b417db9e5a78612acb6e5629cb28721fa6a215f5e89726cf167d145e20f4286bb4f496ffe30e6c54bd5aafb3676"}
+  {
+    "_id": "589e21b09105f9270c3f864e",
+    "firstName": "Pieter-Jan",
+    "lastName": "Beelen",
+    "username": "PBEELEN",
+    "password": "097e44425142760bf7abdf00d2f82c80c65b3a8c2477af314839388cfea74ac2902d6582f8ecf25558e51559f56f1385fbbde08eeaf041373a32eabc2925db27"
+  },
+  {
+    "_id": "589e21cf9105f9270c3f864f",
+    "firstName": "Marijn",
+    "lastName": "Bel",
+    "username": "MBEL",
+    "password": "631cda9bbb583161b86c00bf1d4f72d83296d81e66b0ed827cd2b3ec93bc70d4aa5c2722bf3496b4c802b74d0629ad3013c445e4c09d8afae7706b33461f7665"
+  },
+  {
+    "_id": "589e21e69105f9270c3f8650",
+    "firstName": "Karin",
+    "lastName": "Keijzer",
+    "username": "KKEIJZER",
+    "password": "631cda9bbb583161b86c00bf1d4f72d83296d81e66b0ed827cd2b3ec93bc70d4aa5c2722bf3496b4c802b74d0629ad3013c445e4c09d8afae7706b33461f7665"
+  }
 ]
