@@ -8,7 +8,8 @@ var bodyParser = require('body-parser');
 var mongo = require('mongodb');
 var monk = require('monk');
 // var dbUrl = 'mongodb://192.168.1.28:27017/capathon'; // Oli
-var dbUrl = 'mongodb://192.168.101.223:27017/capathon'; //Karin
+// var dbUrl = 'mongodb://localhost:27017/capathon'; //Karin
+var dbUrl = 'mongodb://192.168.1.2:27017/capathon'; //Karin
 var db = monk(dbUrl);
 
 var index = require('./routes/index');
