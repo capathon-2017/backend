@@ -8,7 +8,8 @@
     "minRequiredSkillScrum": 1,
     "phase": 1,
     "positions": 2,
-    "applicants": 35
+    "applicants": 35,
+    "color":"#387d69"
   },
   {
     "id": "2",
@@ -19,7 +20,8 @@
     "minRequiredSkillScrum": 1,
     "phase": 1,
     "positions": 1,
-    "Applicants": 15
+    "Applicants": 15,
+    "color":"#f1680d"
   },
   {
     "id": "3",
@@ -30,7 +32,8 @@
     "minRequiredSkillScrum": 1,
     "phase": 2,
     "positions": 3,
-    "applicants": 2
+    "applicants": 2,
+    "color":"#c30046"
   },
   {
     "id": "4",
@@ -41,7 +44,8 @@
     "minRequiredSkillScrum": 1,
     "phase": 3,
     "positions": 20,
-    "applicants": 51
+    "applicants": 51,
+    "color":"#00b6db"
   },
   {
     "id": "5",
@@ -52,7 +56,8 @@
     "minRequiredSkillScrum": 1,
     "phase": 1,
     "positions": 1,
-    "applicants": 0
+    "applicants": 0,
+    "color":"#009"
   },
   {
     "id": "6",
@@ -63,6 +68,7 @@
     "minRequiredSkillScrum": 1,
     "phase": 1,
     "positions": 11,
-    "applicants": 0
+    "applicants": 0,
+    "color":"#98010f"
   }
 ]
