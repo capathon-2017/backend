@@ -5,6 +5,7 @@
     "location": "Antwerp",
     "certifications": [
       "Java OCA",
+      "De Schone Slaapster",
       "Backbase Backend"
     ],
     "age": 23,
@@ -13,9 +14,9 @@
       "Java": 2,
       "JavaScript": 4,
       "Slapen": 5,
-      "Angular": 1,
+      "Angular": 1
     },
-    "motivationLetter": "I want to work",
+    "motivationLetter": "I want to work and sleep and work and sleep and sleep",
     "extraCarreerActivities": "Helping the homeless",
     "carreerExpierence": "5 years at BNP Paribas as Java developper"
   },
@@ -35,7 +36,7 @@
       "Java OCA",
       "Backbase Backend"
     ],
-    "motivationLetter": "I am looking for a nice job",
+    "motivationLetter": "I am looking for a nice job with a great salary",
     "extraCarreerActivities": "None",
     "carreerExpierence": "Benchlife at Capgemini"
   },
@@ -49,15 +50,15 @@
       "Managen": 3,
       "Angular": 1
     },
-    "age": 50,
+    "age": 21,
     "highscore": 15,
     "certifications": [
       "Java OCA",
       "Certified Manager"
     ],
-    "motivationLetter": "Please hire me",
-    "extraCarreerActivities": "None",
-    "carreerExpierence": "Something something at Argenta"
+    "motivationLetter": "Please hire me, I am a very professional last minute hacker",
+    "extraCarreerActivities": "Last minute hacking at the Hackathon",
+    "carreerExpierence": "Something like working at Argenta"
   },
   {
     "name": "Karin",
@@ -79,7 +80,7 @@
     ],
     "motivationLetter": "I want to work in Belgium, so much nicer there",
     "extraCarreerActivities": "Ambassador for VZW Kinderdorpen",
-    "carreerExpierence": "Internship at Google"
+    "carreerExpierence": "Internship at Google, Developer at ING"
   },
   {
     "name": "Daan",
@@ -97,8 +98,8 @@
       "Java OCA",
       "Backbase pro"
     ],
-    "motivationLetter": "I will work hard",
-    "extraCarreerActivities": "Hatsen in het weekend",
+    "motivationLetter": "I will work hard for everyone that wants to hire me. I am currently working in Paris.",
+    "extraCarreerActivities": "Hatsen in het weekend, en door de week.",
     "carreerExpierence": "Crewmember bij McDonalds"
   },
   {
@@ -118,8 +119,8 @@
       "Certified paljaske",
       "Guiter hero semi-pro"
     ],
-    "motivationLetter": "I will do everything for money",
-    "extraCarreerActivities": "Hatsen in het weekend/ in de week",
+    "motivationLetter": "I will do everything for money, even come to Heerenveen in the weeekend.",
+    "extraCarreerActivities": "Hatsen in het weekend en in de week",
     "carreerExpierence": "Short time CEO of Google"
   },
   {
@@ -139,9 +140,9 @@
       "Certified paljaske",
       "Guiter hero semi-pro"
     ],
-    "motivationLetter": "I will work for money",
+    "motivationLetter": "I will work for money. I will work for money.",
     "extraCarreerActivities": "Hacken in het weekend en in de week",
-    "carreerExpierence": "Argenta"
+    "carreerExpierence": "Capgemini and Argenta"
   },
   {
     "name": "Rob",
@@ -160,8 +161,8 @@
       "Certified paljaske",
       "Guiter hero semi-pro"
     ],
-    "motivationLetter": "I will work for money",
-    "extraCarreerActivities": "Spelen met google home",
+    "motivationLetter": "I will work for money,",
+    "extraCarreerActivities": "Play with google home and Alexa.",
     "carreerExpierence": "Argenta"
   }
 ]
