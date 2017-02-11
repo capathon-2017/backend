@@ -58,17 +58,5 @@
     "positions": 1,
     "applicants": 0,
     "color":"#009"
-  },
-  {
-    "id": "6",
-    "img": "/images/belgie.jpg",
-    "project": "Professional Soccer Player",
-    "company": "Rode Duivels",
-    "minRequiredSkillJava": 2,
-    "minRequiredSkillScrum": 1,
-    "phase": 1,
-    "positions": 11,
-    "applicants": 0,
-    "color":"#98010f"
   }
 ]
