@@ -1,8 +1,68 @@
-{
-  "id": "1",
-  "project": "Java implementation",
-  "company": "Capgemini",
-  "minRequiredSkillJava": 2,
-  "minRequiredSkillScrum": 1,
-  "phase": 1
-}
+[
+  {
+    "id": "1",
+    "img": "/images/abn.jpg",
+    "project": "Technical Analyst",
+    "company": "ABN AMRO",
+    "minRequiredSkillJava": 2,
+    "minRequiredSkillScrum": 1,
+    "phase": 1,
+    "positions": 2,
+    "applicants": 35
+  },
+  {
+    "id": "2",
+    "img": "/images/ing.jpg",
+    "project": "Junior Java Developer",
+    "company": "ING",
+    "minRequiredSkillJava": 2,
+    "minRequiredSkillScrum": 1,
+    "phase": 1,
+    "positions": 1,
+    "Applicants": 15
+  },
+  {
+    "id": "3",
+    "img": "/images/belfius.png",
+    "project": "Business Analyst",
+    "company": "Belfius",
+    "minRequiredSkillJava": 2,
+    "minRequiredSkillScrum": 1,
+    "phase": 2,
+    "positions": 3,
+    "applicants": 2
+  },
+  {
+    "id": "4",
+    "img": "/images/capgemini.jpg",
+    "project": "Young Professional",
+    "company": "Capgemini",
+    "minRequiredSkillJava": 2,
+    "minRequiredSkillScrum": 1,
+    "phase": 3,
+    "positions": 20,
+    "applicants": 51
+  },
+  {
+    "id": "5",
+    "img": "/images/rabobank.png",
+    "project": "Scrum Master",
+    "company": "Rabobank",
+    "minRequiredSkillJava": 2,
+    "minRequiredSkillScrum": 1,
+    "phase": 1,
+    "positions": 1,
+    "applicants": 0
+  },
+  {
+    "id": "6",
+    "img": "/images/belgie.png",
+    "project": "Scrum Master",
+    "company": "Rode Duivels",
+    "minRequiredSkillJava": 2,
+    "minRequiredSkillScrum": 1,
+    "phase": 1,
+    "positions": 11,
+    "applicants": 0
+  }
+]
