@@ -33,6 +33,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.json({extended: true}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/front', express.static(path.join(__dirname, '../recruitment-app')));
+app.use('/game', express.static(path.join(__dirname, '../game/dist')));
 
 // Make our db accessible to our router
 app.use(function (req, res, next) {

@@ -19,5 +19,19 @@
     "lastName": "Keijzer",
     "username": "KKEIJZER",
     "password": "631cda9bbb583161b86c00bf1d4f72d83296d81e66b0ed827cd2b3ec93bc70d4aa5c2722bf3496b4c802b74d0629ad3013c445e4c09d8afae7706b33461f7665"
+  },
+  {
+    "_id": "589f08d35471a92420d08a9e",
+    "firstName": "Daan",
+    "lastName": "Smits",
+    "username": "dsmits",
+    "password": "29c5fab077c009b9e6676b2f082a7ab3b0462b41acf75f075b5a7bac5619ec81c9d8bb2e25b6d33800fba279ee492ac7d05220e829464df3ca8e00298c517764"
+  },
+  {
+    "_id": "589f09b7f954d617bcb70c04",
+    "firstName": "Pieter-Jan",
+    "lastName": "Beelen",
+    "username": "test",
+    "password": "29c5fab077c009b9e6676b2f082a7ab3b0462b41acf75f075b5a7bac5619ec81c9d8bb2e25b6d33800fba279ee492ac7d05220e829464df3ca8e00298c517764"
   }
 ]

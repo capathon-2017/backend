@@ -10,9 +10,10 @@
     "age": 23,
     "highscore": 3,
     "skills": {
-      "java": 4,
-      "scrum": 3,
-      "networking": 2
+      "Java": 2,
+      "JavaScript": 4,
+      "Slapen": 5,
+      "Angular": 1,
     },
     "motivationLetter": "I want to work",
     "extraCarreerActivities": "Helping the homeless",
@@ -23,9 +24,10 @@
     "img":"/images/thomas.jpg",
     "location": "Leuven",
     "skills": {
-      "java": 4,
-      "runescape": 5,
-      "drinken": 4
+      "Java": 1,
+      "Runescape": 5,
+      "Scrum": 3,
+      "Drinken": 4
     },
     "age": 23,
     "highscore": 10,
@@ -42,9 +44,10 @@
     "img":"/images/pj.jpg",
     "location": "Onbekend",
     "skills": {
-      "java": 2,
-      "scrum": 5,
-      "managen": 3
+      "Java": 2,
+      "Scrum": 5,
+      "Managen": 3,
+      "Angular": 1
     },
     "age": 50,
     "highscore": 15,
@@ -61,8 +64,10 @@
     "img":"/images/karin.jpg",
     "location": "De Nederlanden",
     "skills": {
-      "java": 4,
-      "scrum": 4,
+      "Java": 4,
+      "Scrum": 5,
+      "Managen": 2,
+      "Angular": 1,
       "Nederlands": 5
     },
     "age": 18,
@@ -81,8 +86,9 @@
     "img":"/images/daan.jpg",
     "location": "Parijs",
     "skills": {
-      "java": 2,
-      "scrum": 3,
+      "Java": 4,
+      "Scrum": 2,
+      "Managen": 3,
       "Frans": 5
     },
     "age": 25,
@@ -100,9 +106,10 @@
     "img":"/images/other.jpg",
     "location": "Belgie",
     "skills": {
-      "dotnet": 2,
-      "scrum": 3,
-      "networking": 2
+      "Dot Net": 2,
+      "Java": 5,
+      "Scrum": 3,
+      "Networking": 1
     },
     "age": 26,
     "highscore": 11,
@@ -120,9 +127,10 @@
     "img":"/images/jeroen.jpg",
     "location": "Belgie",
     "skills": {
-      "dotnet": 2,
-      "scrum": 3,
-      "networking": 2
+      "Dot Net": 1,
+      "Java": 4,
+      "Scrum": 3,
+      "Networking": 2
     },
     "age": 27,
     "highscore": 13,
@@ -140,9 +148,10 @@
     "img":"/images/rob.jpg",
     "location": "Belgie",
     "skills": {
-      "dotnet": 2,
-      "scrum": 3,
-      "networking": 2
+      "Dot Net": 1,
+      "Java": 2,
+      "Scrum": 3,
+      "Angular": 5
     },
     "age": 27,
     "highscore": 7,
