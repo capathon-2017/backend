@@ -11,5 +11,31 @@
       ],
       "correct": 0
     }
+  },
+  {
+    "id": "2",
+    "question": {
+      "difficulty": "medium",
+      "text": "What is an Object in Java?",
+      "options": [
+        "Everything is an Object",
+        "Nothing is an Object",
+        "Everything and Nothing is an Object"
+      ],
+      "correct": 0
+    }
+  },
+  {
+    "id": "3",
+    "question": {
+      "difficulty": "hard",
+      "text": "What is an Object in Java?",
+      "options": [
+        "Everything is an Object",
+        "Nothing is an Object",
+        "Everything and Nothing is an Object"
+      ],
+      "correct": 0
+    }
   }
 ]
