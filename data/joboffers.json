@@ -25,7 +25,7 @@
   },
   {
     "id": "3",
-    "img": "/images/belfius.png",
+    "img": "/images/belfius.jpg",
     "project": "Business Analyst",
     "company": "Belfius",
     "minRequiredSkillJava": 2,
@@ -37,7 +37,7 @@
   },
   {
     "id": "4",
-    "img": "/images/capgemini.jpg",
+    "img": "/images/capgemini.png",
     "project": "Young Professional",
     "company": "Capgemini",
     "minRequiredSkillJava": 2,
@@ -61,7 +61,7 @@
   },
   {
     "id": "6",
-    "img": "/images/belgie.png",
+    "img": "/images/belgie.jpg",
     "project": "Professional Soccer Player",
     "company": "Rode Duivels",
     "minRequiredSkillJava": 2,
